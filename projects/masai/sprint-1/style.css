@@ -1,0 +1,201 @@
+.box {
+    padding: 10px;
+    width: 70%;
+    height: 80%;
+    margin: auto;
+  }
+  
+  .inner-box > div {
+    width: 33.33%;
+    float: left;
+  }
+  
+  .box h2, .box p {
+    text-align: center;
+  }
+  
+  .box p{
+    font-size: 14px;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  .box img {
+    width: 80%;
+  }
+
+  .card > div {
+    padding: 10px;
+  }
+
+  .fl {
+    float: left;
+  }
+
+  .txtbox{
+    font-family: 'Permanent Marker', cursive;
+    font-size: xx-large;
+    text-align: center;
+    height: 10%;
+    background-color: red;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 25%;
+  } 
+  h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: xx-large;
+    text-align: center;
+    height: 10%;
+    background-color: red;
+    border-radius: 20px;
+  }
+
+  .box1 {
+    width: 60%;
+    height: 100%;
+    margin:auto;
+    background-color:white;
+}
+.box2 {
+    display: flex;
+    height: 22%;
+    width: 70%;
+    margin:auto;
+    
+}
+.box2 div {
+    flex-basis: 20%;
+    margin: 15px;
+    background-color: pink;
+    border-radius: 4px;
+}
+#b1 div:nth-of-type(2) {
+   background-color: white;
+}
+#b1 div:nth-of-type(3) {
+   background-color: white;
+}
+#b1 div:nth-of-type(4) {
+   background-color: white;
+}
+#b2 div:nth-of-type(3) {
+   background-color: white;
+}
+#b2 div:nth-of-type(4) {
+   background-color: white;
+}
+#b3 div:nth-of-type(4) {
+   background-color: white;
+}
+
+.padtop {
+   padding: 3%;
+}
+
+.txtbox2 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: large;
+  text-align: center;
+  margin: 5px;
+} 
+
+#cont {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns:auto;
+  grid-template-rows:auto;
+  grid-template: "a b c d"
+                "e f g h"
+                "i j k l"
+                "m n o p";
+  padding: 5px;
+  background:white;
+}
+.diffbox {
+    height: 70%;
+    width: 40%;
+}
+
+#cont div {
+  background: skyblue;
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+}
+
+#item1 {
+    grid-area: a;
+}
+#item2 {
+    grid-area: b;
+}
+#item3 {
+    grid-area: c;
+}
+#item4 {
+    grid-area: d;
+}
+#item5 {
+    grid-area: e;
+}
+#item6 {
+    grid-area: f;
+}
+#item7 {
+    grid-area: g;
+}
+#item8 {
+    grid-area: h;
+}
+#item9 {
+    grid-area: i;
+}
+#item10 {
+    grid-area: j;
+}
+#item11 {
+    grid-area: k;
+}
+#item12 {
+    grid-area: l;
+}
+#item13 {
+    grid-area: m;
+}
+#item14 {
+    grid-area: n;
+}
+#item15 {
+    grid-area: 0;
+}
+#item16 {
+    grid-area: p;
+}
+
+#cont2 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  background:white;
+  padding: 20px;
+}
+
+#cont2 div {
+  background:green;
+  border-radius: 5px;
+}
+
+#it2 {
+  grid-area: 1 / 2 / span 1 / span 2;
+}
+
+#it3 {
+  grid-area: 2 / 1 /span 1 / span 2;
+}
+
+#it9 {
+  grid-area: 3 / 3 / span 1 / span 2;
